@@ -48,8 +48,8 @@ public class MainLayout extends AppLayout {
      */
     public MainLayout(@Autowired GuestApplication service) {
         createHeader();
-
     }
+
     private void createHeader() {
         H1 logo = new H1("Welcome to Israeli Football Association ");
         logo.addClassName("logo");

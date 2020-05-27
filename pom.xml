@@ -66,6 +66,11 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-combo-box-flow</artifactId>
+            <version>3.0.9</version>
+        </dependency>
 
     </dependencies>
 
@@ -112,6 +117,7 @@
                     <artifactId>flow-server-production-mode</artifactId>
                 </dependency>
             </dependencies>
+
 
             <build>
                 <plugins>
